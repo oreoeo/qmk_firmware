@@ -157,3 +157,6 @@ update the following line in `matrix.c` to the following:
 // wait_us(30);  // without this wait read unstable value.
 wait_us(300);  // without this wait read unstable value.
 ```
+
+### Switching Keymaps
+In the QMK MSYS terminal to switch between our keymaps use the command `qmk config user.keymap=NAME`
