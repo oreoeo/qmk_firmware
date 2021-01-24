@@ -33,8 +33,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Define the pins in the keymap due to differences in wiring */
 // Below are pin definitions for her "Stealth" build
-#define MATRIX_ROW_PINS { F7, B1, B3, B2, B6 }
-#define MATRIX_COL_PINS { C6, D7, E6, B4, B5 }
+#define MATRIX_ROW_PINS { F7, B1, B3, B2, B6 } 
+#define MATRIX_COL_PINS { B5, B4, E6, D7, C6 }
 
 /* AUTO SHIFT SETTINGS */
 #define AUTO_SHIFT_TIMEOUT 150

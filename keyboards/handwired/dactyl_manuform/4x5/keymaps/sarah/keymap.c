@@ -87,13 +87,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       RALT_T(KC_ENT), \
       RCTL_T(KC_SPC), \
       KC_TAB, \
-      KC_HOME, \
-      KC_END, \
-      KC_ESC, \
       MO(2), \
+      LT(1, KC_QUOT), \
+      KC_ESC, \
+      KC_HOME, \
       KC_GRV, \
       KC_BSLS, \
-      LT(1, KC_QUOT)
+      KC_END 
 ),
 /* [_BASE] = LAYOUT( \
   KC_Q, KC_W, KC_E,    KC_R,    KC_T,                                       KC_Y, KC_U,    KC_I,    KC_O,   KC_P,    \
@@ -165,7 +165,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_F1, \
       KC_F2, \
       KC_F3, \
-      KC_4, \
+      KC_F4, \
       KC_F5, \
       KC_6, \
       KC_7, \
