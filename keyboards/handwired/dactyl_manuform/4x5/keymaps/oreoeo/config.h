@@ -32,6 +32,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define EE_HANDS
 
 /* Define the pins in the keymap due to differences in wiring */
+/* Pin definitions for "Purple People Eater" */
 #define MATRIX_ROW_PINS { F7, B1, B3, B2, B6 }
-#define MATRIX_COL_PINS { C6, D7, E6, B4, B5 }
+#define MATRIX_COL_PINS { C6, D7, E6, B4, B5 } 
 
