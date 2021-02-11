@@ -86,7 +86,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       LSFT_T(KC_DEL), \
       RALT_T(KC_ENT), \
       RCTL_T(KC_SPC), \
-      KC_TAB, \
+      LCTL_T(KC_TAB), \
       MO(2), \
       LT(1, KC_QUOT), \
       KC_ESC, \

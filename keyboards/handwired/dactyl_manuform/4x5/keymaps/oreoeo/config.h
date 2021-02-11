@@ -31,6 +31,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MASTER_RIGHT
 #define EE_HANDS
 
+/* AUTO SHIFT */
+#define AUTO_SHIFT_TIMEOUT 135
+
 /* Define the pins in the keymap due to differences in wiring */
 /* Pin definitions for "Purple People Eater" */
 #define MATRIX_ROW_PINS { F7, B1, B3, B2, B6 }
